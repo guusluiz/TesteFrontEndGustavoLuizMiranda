@@ -25,6 +25,10 @@
     cursor: pointer;
 }
 
-#checkbox:checked+.section_item_lista{
+/* #checkbox:checked+.section_item_lista{
     background-color: green;
+} */
+
+.section_item_lista input[type="checkbox"]:checked + p {
+    background-color: lightgreen;
 }
